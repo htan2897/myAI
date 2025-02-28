@@ -19,10 +19,10 @@ export function Pill({
         isDone ? "text-gray-200" : "text-gray-400 animate-pulse"
       } ${isError ? "text-red-500" : ""}`}
     >
-      {icon === "thinking" && <Brain className="w-4 h-4 animate-pulse" />}
-      {icon === "searching" && <FileSearch className="w-4 h-4 animate-pulse" />}
-      {icon === "understanding" && <Scan className="w-4 h-4 animate-pulse" />}
-      {icon === "documents" && <FileStack className="w-4 h-4 animate-pulse" />}
+      {icon === "using computer brain" && <Brain className="w-4 h-4 animate-pulse" />}
+      {icon === "sifting" && <FileSearch className="w-4 h-4 animate-pulse" />}
+      {icon === "scanning and compiling" && <Scan className="w-4 h-4 animate-pulse" />}
+      {icon === "data" && <FileStack className="w-4 h-4 animate-pulse" />}
       {icon === "error" && <AlertCircle className="w-4 h-4 animate-pulse" />}
       <p>{status}</p>
     </div>
